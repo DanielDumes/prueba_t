@@ -130,6 +130,24 @@ header {
   font-weight: bold; 
 }
 
+.parrafo1 {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.parrafo1 h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.parrafo1 p {
+  font-size: 1.4em;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
 
 .parrafo2 p {
   font-size: 1.2em;
@@ -150,6 +168,82 @@ header {
   line-height: 1.6;
 }
 
+.parrafo2 {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  padding-left: 250px;
+  padding-top: 10px;
+  padding-right: 250px;
+  padding-bottom: 10px;
+}
+
+.parrafo2 h1 {
+  margin-right: 20px;
+  max-width: 60%;
+}
+
+
+.parrafo2 img.fiestaimg {
+  max-width: 35%;
+  border-radius: 10px;
+}
+
+h1{
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+.parrafo3 {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  padding-left: 250px;
+  padding-top: 10px;
+  padding-right: 250px;
+  padding-bottom: 10px;
+}
+
+.parrafo3 h1 {
+  margin-right: 20px;
+  max-width: 60%;
+}
+
+
+.parrafo3 img.fiestaimg {
+  max-width: 35%;
+  border-radius: 10px;
+}
+
+
+.parrafo4 {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  padding-left: 250px;
+  padding-top: 10px;
+  padding-right: 250px;
+  padding-bottom: 10px;
+}
+
+.parrafo4 h1 {
+  margin-right: 20px;
+  max-width: 60%;
+}
+
+
+.parrafo4 img.fiestaimg {
+  max-width: 35%;
+  border-radius: 10px;
+}
 
 
 .parrafo3 img.fiestaimg {
