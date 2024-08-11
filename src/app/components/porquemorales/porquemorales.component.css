@@ -28,6 +28,68 @@ html, body {
 }
 
 
+header {
+    width: 100%;
+    position: relative;
+    top: -100px; /* Ajusta este valor para mover el carrusel más arriba o más abajo */
+    z-index: 1;
+}
+
+.slider{
+  display: flex;
+  align-items: center;
+
+}
+
+.slider-txt{
+  margin-left: 85px;
+  width: 50%;
+}
+
+.slider-txt h1{
+  font-size: 70px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.slider-txt p{
+  font-size: 18px;
+  color: #a7a7a7;
+}
+
+
+
+.slider-img{
+  width: 50%;
+  
+}
+
+.slider-img img{
+  margin-right: 225px;
+  width: 550px;
+}
+
+.styled-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, filter 0.3s ease;
+  border: 2px solid #ccc;
+  margin-left: 150px;
+}
+
+.header-content{
+    margin-top: 200px;
+    padding-bottom: 50px;
+  
+}
+
+    
+
 .cultura {
     position: absolute;
     top: 150px;
