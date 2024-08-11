@@ -68,3 +68,117 @@ h4{
     font-weight: bold;
 }
 
+
+/* Agrega una suave animación de aparición al contenedor principal */
+.consejos {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Animación de zoom al título principal */
+.delmedio h1 {
+    animation: zoomIn 0.8s ease-in-out;
+}
+
+/* Animación de desvanecimiento para los párrafos */
+.delmedio p {
+    animation: fadeInUp 1.2s ease-in-out;
+}
+
+/* Animación de aparición desde abajo para cada consejo */
+.consejo-item {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-in-out forwards;
+    animation-delay: 0.3s;
+}
+
+/* Añade un retraso en la animación de cada consejo */
+.consejo-item:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+.consejo-item:nth-child(3) {
+    animation-delay: 0.7s;
+}
+
+.consejo-item:nth-child(4) {
+    animation-delay: 0.9s;
+}
+
+.consejo-item:nth-child(5) {
+    animation-delay: 1.1s;
+}
+
+.consejo-item:nth-child(6) {
+    animation-delay: 1.3s;
+}
+
+/* Efecto hover para los items de consejos */
+.consejo-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Definiciones de las animaciones claveframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+    .delmedio h1 {
+        font-size: 2em;
+    }
+    .delmedio p {
+        font-size: 1em;
+        padding: 0 20px;
+    }
+    .consejo-item {
+        flex: 1 1 calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .delmedio h1 {
+        font-size: 1.5em;
+    }
+    .delmedio p {
+        font-size: 0.9em;
+        padding: 0 10px;
+    }
+    .consejo-item {
+        flex: 1 1 100%;
+    }
+    .consejos {
+        padding: 10px;
+    }
+}
+
