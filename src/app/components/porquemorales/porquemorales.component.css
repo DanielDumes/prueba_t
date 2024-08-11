@@ -55,7 +55,7 @@ header {
 
 .slider-txt p{
   font-size: 18px;
-  color: #a7a7a7;
+  color: #525252;
 }
 
 
@@ -102,6 +102,32 @@ header {
     width: 600px;
     height: 350px;
     border-radius: 15px;
+}
+/*botones*/
+.button-container {
+  text-align: center;
+}
+
+.circle-button {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.circle-button img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%; 
+}
+
+.button-text {
+  margin-top: 10px; 
+  text-align: center;
+  color: black;
+  font-weight: bold; 
 }
 
 
