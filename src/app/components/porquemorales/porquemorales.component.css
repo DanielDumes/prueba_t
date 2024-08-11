@@ -309,6 +309,37 @@ h1{
 
 
 
+.tigrillo p {
+  font-size: 1.2em;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.tigrillo h1{
+  margin-right: 20px;
+  max-width: 60%;
+}
+
+.tigrillo {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  padding-left: 250px;
+  padding-top: 10px;
+  padding-right: 250px;
+  padding-bottom: 10px;
+}
+
+
+.tigrillo img.fiestaimg {
+  max-width: 35%;
+  border-radius: 10px;
+}
+
+
 
 
 
