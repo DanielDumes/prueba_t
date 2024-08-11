@@ -345,13 +345,6 @@ h1{
 }
 
 @media screen and (max-width: 768px) {
-  nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 9999;
-    background-color: #fff;
-  }
 
 .gastronomia {
     position: absolute;
@@ -398,69 +391,4 @@ h1{
     display: none;
   }
 }
-
-@media screen and (max-width: 480px) {
-  nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 9999;
-    background-color: #fff;
-  }
-
-  .content {
-    margin-top: 60px;
-  }
-
-  .slider-txt h1 {
-    font-size: 30px;
-    text-align: center;
-  }
-
-  .slider-txt p {
-    font-size: 12px;
-    text-align: center;
-  }
-
-  .slider-img img {
-    margin-right: 0;
-    display: none;
-    margin: 0 auto;
-  }
-
-  .parrafo2, .parrafo3, .parrafo4, .humitas, .tigrillo, .parrafo1 {
-    flex-direction: column;
-    padding: 10px;
-    font-size: 10px;
-    top: 750px;
-  }
-
-  h2 {
-    font-size: 15px;
-    top: 750px;
-  }
-
-  h1 {
-    font-size: 20px;
-    top: 750px;
-  }
-
-  .parrafo2 img, .parrafo3 img, .parrafo4 img, .humitas img, .tigrillo img {
-    max-width: 100%;
-    margin-bottom: 10px;
-    display: none;
-  }
-
-  .circle-button {
-    width: 150px;
-    height: 150px;
-  }
-}
-
-
-
-
-
-
-
 
