@@ -48,7 +48,7 @@ header {
 
 .slider-txt h1{
   font-size: 70px;
-  color: white;
+  color: rgb(5, 5, 5);
   text-transform: uppercase;
   font-weight: 800;
 }
@@ -59,10 +59,8 @@ header {
 }
 
 
-
 .slider-img{
   width: 50%;
-  
 }
 
 .slider-img img{
@@ -88,7 +86,6 @@ header {
   
 }
 
-    
 
 .cultura {
     position: absolute;
