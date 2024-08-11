@@ -354,22 +354,14 @@ h1{
   position: absolute;
   top: 300px;
 }
+.header-content {
+    display: none;
+}
 
   .content {
     margin-top: 60px;
   }
 
-  .slider-txt h1 {
-    font-size: 40px;
-  }
-
-  .slider-txt p {
-    font-size: 14px;
-  }
-
-  .slider-img img {
-    display: none;
-  }
 
   .parrafo2, .parrafo3, .parrafo4, .humitas, .tigrillo, .parrafo1 {
     flex-direction: column;
