@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+    background-color: #fbdede;
+    font-family: "Poppins", sans-serif;
+}
+  
+  .container{
+    max-width: 1200px;
+    margin: 0 auto;
+  
+  }
+/*CARRUSEL*/
+
+#carouselExampleIndicators {
+  margin-left: 1.5cm;
+  margin-right: 1.5cm;
+  margin-top: 0.5cm;
+  margin-bottom: 1cm;  
+}
+
+/*botones*/
+.button-container {
+  text-align: center;
+}
+
+.circle-button {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.circle-button img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%; 
+}
+
+.button-text {
+  margin-top: 10px; 
+  text-align: center;
+  color: black;
+  font-weight: bold; 
+}
+
+.carousel-inner{
+  height: 500px;
+}
+
+.carousel-item{
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-item img{
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.fade-in.active {
+  opacity: 1;
+}
+
+.parrafo2 {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  padding-left: 250px;
+  padding-top: 10px;
+  padding-right: 250px;
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+  .carousel.slide {
+      max-width: 100%;
+  }
+}
+
+.info{
+    padding: 100px 0px ;
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  .info-img{
+    width: 50%;
+  }
+  
+  .info-img img{
+    width: 500px;
+    height: 350px;
+  }
+  
+  .info-txt{
+    width: 50%;
+  
+  }
+  
+  .info-txt h2{
+    font-size: 75px;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+  }
+  
+  .info-txt p{
+    font-size: 18px;
+    color: #4e4e4e;
+    margin-bottom: 50px;
+  }
+  
+  .parqMorales{
+    width: 2000%;
+    max-width: 700px;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, filter 0.3s ease;
+    border: 2px solid #4f4f4f;
+    margin-left: 20px; /* Mueve la imagen a la derecha */
+  }
+  
+  .parqMorales:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1) contrast(1.2);
+  }
+  
+  
+  .btn-2{
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: red;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: 50px;
+  }
+  
+  .btn-2:hover{
+    background-color: rgb(108, 5, 5);
+  }
+  
+  .horario{
+    padding: 100px 0px;
+    background-color: #e2fcff;
+  }
+  
+  .horario-info h2{
+    font-size: 75px;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
+  
+  .horario-txt{
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
+  .txt{
+    color: rgb(100, 100, 100);
+  }
+  
+  .txt h4{
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 30px;
+  }
+  
+  .txt p{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .map{
+    filter: grayscale(100%) invert(92%) contrast(93%);
+  }
+  
+  .footer{
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  
+  .links h4{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-weight: bold;
+  }
+  
+  .links ul li a{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+  }
+  
+.botones{
+  margin-top: 50px;
+}
+
+.btn-1{
+  display: inline-block;
+  padding: 15px 35px;
+  border: 2px solid red;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-right: 20px;
+  border-radius: 50px;
+}
+
+.btn-1:hover{
+  background-color: red;
+}
+
+.socials{
+  display: flex;
+}
+
+.social{
+  margin: 0 10px;
+  height: 40px;
+  width: 40px;
+  border: 1px solid red;
+  border-radius: 50%;
+  background-color: black;
+
+}
+
+.social:hover{
+  background-color: red;
+}
+
+.social img{
+  margin: 8px 0 0 10px;
+
+}
+  .btn-2{
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: red;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: 50px;
+  }
+  
+  .btn-2:hover{
+    background-color: rgb(108, 5, 5);
+  }
+  
+  .swiper-button-next, .swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    width: 27px;
+    height: 44px;
+    margin-top: -22px;
+    z-index: 10;
+    cursor: pointer;
+  }
+  .swiper-button-next:hover {
+    background-color: white;
+    
+  }
+  .swiper-button-prev:hover {
+    background-color: white;
+    
+  }
+
+  .links h4{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    margin-bottom: 25px;
+  }
+  
+  .links ul li a{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+  }
+  
+
+
+/* Aplicar rebote a los botones circulares al pasar el cursor */
+.circle-button:hover {
+  animation: bounce 0.8s;
+}
+
+/* Aplicar desvanecimiento con escala al mapa */
+.map {
+  animation: fadeScale 1.2s ease-in-out;
+}

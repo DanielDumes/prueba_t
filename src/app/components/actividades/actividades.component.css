@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+    background-color: #e5ffff;
+    color: #333;
+    font-family: "Poppins", sans-serif;
+
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.actividades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20px;
+    width: 1200px;
+    height: 100%;
+    position: relative;
+    animation: fadeIn 1s ease-in-out;
+    left: 150px;
+
+}
+
+.actividades img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.atractivos {
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.culturales {
+    text-align: center;
+    animation: slideUp 1s ease-in-out;
+}
+
+.culturales h1,
+.culturales h4 {
+    color: #00756a;
+}
+
+.culturales img {
+    width: 500px;
+    height: 320px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.culturales p {
+    text-align: center;
+    width: 600px;
+    margin: 20px auto;
+    font-size: 20px; 
+
+}
+.maravillas {
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.naturales {
+    text-align: center;
+    animation: slideUp 1s ease-in-out;
+}
+
+.naturales h1,
+.naturales h4 {
+    color: #00756a;
+}
+
+.cascada, .petrograbados {
+    text-align: center;
+    margin-top: 30px;
+    animation: slideUp 1s ease-in-out;
+}
+
+
+.actividades2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    width: 1200px;
+    height: 100%;
+    position: relative;
+    animation: fadeIn 1s ease-in-out;
+    left: 150px;
+
+}
+
+.actividades2 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.maravillasimg {
+    width: 500px;
+    height: 320px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.maravillas p {
+    width: 900px;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+.atractivosimg {
+    width: 45%; /* Adjust width as needed */
+    height: auto;
+    border-radius: 10px;
+    margin-right: 10px; /* Add space to the right */
+  }
+  
+  .atractivosimg:last-child {
+    margin-right: 0; /* Remove margin on the last image */
+  }
+
+
+  .petro p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  .petro h1{
+    margin-right: 20px;
+    max-width: 60%;
+    
+  }
+  h1{
+    text-align: center;
+  }
+  
+  .petro {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding-left: 250px;
+    padding-top: 10px;
+    padding-right: 250px;
+    padding-bottom: 10px;
+  }
+  
+  
+  .petro img.fiestaimg {
+    max-width: 35%;
+    border-radius: 10px;
+  }
+  
+  .petroimg {
+    position: relative;
+    width: 600px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+  
+/* Animación de zoom para las imágenes al hacer hover */
+@keyframes zoomIn {
+    from { transform: scale(1); }
+    to { transform: scale(1.1); }
+}
+
+/* Animación de transición de color para los encabezados */
+@keyframes colorChange {
+    from { color: #00756a; }
+    to { color: #004d40; }
+}
+
+/* Aplicación de animaciones al hacer hover */
+.actividades img:hover,
+.maravillas img:hover,
+.culturales img:hover {
+    animation: zoomIn 0.5s ease forwards;
+}
+
+/* Efecto de animación al pasar por los títulos */
+.culturales h1:hover,
+.culturales h4:hover,
+.naturales h1:hover,
+.naturales h4:hover {
+    animation: colorChange 0.5s ease forwards;
+}
+

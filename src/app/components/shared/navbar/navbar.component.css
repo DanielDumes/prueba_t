@@ -1,0 +1,145 @@
+
+.custom-navbar {
+    background-color: #ffdff9; /* Color de fondo blanco */
+    border-bottom: 10px solid #00C9B5; /* Borde inferior azul */
+    display: flex;
+    justify-content: center; /* Centrar contenido horizontalmente */
+    align-items: center; /* Centrar contenido verticalmente */
+    padding: 10px 0; /* Espaciado vertical */
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand {
+    margin-right: 280px; /* Espacio entre el logo y los enlaces */
+    text-transform: uppercase;
+
+}
+.navbar-brand:hover {
+    color: #007bff;   
+    transform: scale(1.1); 
+    transition: opacity 0.3s ease, transform 0.3s ease;
+
+}
+
+.navbar-logo {
+    width: 80px; /* Ajusta el tamaño según tus necesidades */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px; /* Espaciado entre enlaces */
+}
+
+.custom-navbar .nav-link {
+    color: #000000; /* Color de enlace azul */
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+     border-radius: 10px; /* Redondear las esquinas */
+}
+
+.custom-navbar .nav-link:hover {
+    color: #03887a; /* Color de enlace azul más oscuro al pasar el mouse */
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.1); /* Color de fondo más oscuro */
+    font-weight: bold; 
+}
+
+/* Estilos para el menú desplegable */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #00C9B5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+
+.dropdown-content a:hover {
+    background-color: #00C9B5;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #00C9B5;
+    
+}
+
+/* Estilo básico para el dropdown */
+.dropdown-menu {
+    background-color: #ffffff; /* Fondo blanco */
+    border: 1px solid #e0e0e0; /* Borde suave */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    position: absolute;
+    z-index: 1000;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    display: none;
+}
+
+/* Cuando se muestra */
+.dropdown-menu.show {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Estilo para los enlaces */
+.dropdown-item {
+    color: #343a40; /* Texto en gris oscuro */
+    padding: 12px 20px; /* Más espacio alrededor del texto */
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 4px; /* Bordes ligeramente redondeados */
+    font-weight: 500; /* Peso de fuente medio */
+}
+
+/* Color al pasar el mouse */
+.dropdown-item:hover {
+    background-color: #007bff; /* Fondo azul */
+    color: #ffffff; /* Texto blanco */
+}
+
+/* Cambios en las animaciones */
+.dropdown-item:hover {
+    background-color: #b4b4b4; /* Fondo claro */
+    color: #007bff; /* Texto azul */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2); /* Sombra al hacer hover */
+    transform: translateY(-2px); /* Efecto de elevación */
+    font-weight: bold;
+}

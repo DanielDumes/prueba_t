@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+
+
+body {
+    color: white;
+    background-color: #dcf6ff;
+    font-family: "Poppins", sans-serif;
+}
+
+/*CARRUSEL*/
+
+
+#carouselExampleIndicators {
+    margin-left: 1.5cm;
+    margin-right: 1.5cm;
+    margin-top: 0.5cm;
+    margin-bottom: 1cm;  
+  }
+  
+  /*botones*/
+  .button-container {
+    text-align: center;
+  }
+  
+  .circle-button {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+  }
+  
+  .circle-button img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%; 
+  }
+  
+  .button-text {
+    margin-top: 10px; 
+    text-align: center;
+    color: black;
+    font-weight: bold; 
+  }
+  
+  .carousel-inner{
+    height: 500px;
+  }
+  
+  .carousel-item{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel-item img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Responsive Adjustments */
+  @media screen and (max-width: 768px) {
+    .carousel.slide {
+        max-width: 100%;
+    }
+  }
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .fade-in.active {
+    opacity: 1;
+  }
+
+  
+  /* Portfolio Section */
+.portafolio {
+    padding: 2rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+  
+  }
+  
+  .img-fluid {
+    width: 300px; /* Aquí estableces el ancho deseado */
+    height: auto; /* Esto garantiza que la altura se ajuste automáticamente para mantener la proporción */
+}
+
+
+
+
+/* Aplicación de la animación en las tarjetas */
+.portafolio .card {
+    animation: fadeInUp 0.8s ease-out forwards; /* Añade 'forwards' para mantener el estado final */
+    opacity: 0; /* Inicio en 0 para ocultarlas antes de la animación */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+   
+}
+

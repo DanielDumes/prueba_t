@@ -1,0 +1,41 @@
+
+<nav class="navbar navbar-expand-lg  custom-navbar">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="home" ><img src="assets/img/morales2.png" class="navbar-logo"><strong>Morales    </strong></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown" (click)="toggleDropdown1()">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button">
+                      Por qué Morales
+                    </a>
+                    <div *ngIf="showDropdown1" class="dropdown-menu show">
+                      <a class="dropdown-item" href="porquemorales/cultura">Cultura</a>
+                      <a class="dropdown-item" href="porquemorales/gastronomia">Gastronomia</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown" (click)="toggleDropdown2()">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button">
+                      Actividades
+                    </a>
+                    <div *ngIf="showDropdown2" class="dropdown-menu show">
+                      <a class="dropdown-item" href="actividades/atractivos">Atractivos Culturales</a>
+                      <a class="dropdown-item" href="actividades/maravillas">Maravillas Naturales</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="planeatuvisita"
+                        >Planea tu visita</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="nuestraparroquia"
+                        >Nuestra Parroquia</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+

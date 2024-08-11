@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+body {
+    color: white;
+    background-color: #dcf6ff;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.consejos {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(229, 255, 246);
+}
+
+.delmedio {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.delmedio h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.delmedio p {
+    font-size: 1.2em;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.consejos-grupo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.consejo-item {
+    flex: 1 1 calc(33.333% - 20px);
+    background-color: #dbf3ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.consejo-item h4 {
+    font-size: 1.5em;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.consejo-item p {
+    font-size: 1.1em;
+    color: #666;
+    text-align: justify;
+}
+
+h4{
+    font-weight: bold;
+}
+
