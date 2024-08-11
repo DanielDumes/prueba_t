@@ -344,6 +344,123 @@ h1{
   transition: transform 0.3s ease;
 }
 
+@media screen and (max-width: 768px) {
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: #fff;
+  }
+
+.gastronomia {
+    position: absolute;
+    top: 250px;
+}
+.cultura {
+  position: absolute;
+  top: 300px;
+}
+
+  .content {
+    margin-top: 60px;
+  }
+
+  .slider-txt h1 {
+    font-size: 40px;
+  }
+
+  .slider-txt p {
+    font-size: 14px;
+  }
+
+  .slider-img img {
+    display: none;
+  }
+
+  .parrafo2, .parrafo3, .parrafo4, .humitas, .tigrillo, .parrafo1 {
+    flex-direction: column;
+    padding: 20px;
+    font-size: 10px;
+  }
+
+  h2 {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .parrafo2 img, .parrafo3 img, .parrafo4 img, .humitas img, .tigrillo img {
+    max-width: 80%;
+    margin-bottom: 20px;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: #fff;
+  }
+
+  .content {
+    margin-top: 60px;
+  }
+
+  .slider-txt h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .slider-txt p {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .slider-img img {
+    margin-right: 0;
+    display: none;
+    margin: 0 auto;
+  }
+
+  .parrafo2, .parrafo3, .parrafo4, .humitas, .tigrillo, .parrafo1 {
+    flex-direction: column;
+    padding: 10px;
+    font-size: 10px;
+    top: 750px;
+  }
+
+  h2 {
+    font-size: 15px;
+    top: 750px;
+  }
+
+  h1 {
+    font-size: 20px;
+    top: 750px;
+  }
+
+  .parrafo2 img, .parrafo3 img, .parrafo4 img, .humitas img, .tigrillo img {
+    max-width: 100%;
+    margin-bottom: 10px;
+    display: none;
+  }
+
+  .circle-button {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+
+
+
+
 
 
 
