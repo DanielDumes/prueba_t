@@ -338,7 +338,11 @@ h1{
   max-width: 35%;
   border-radius: 10px;
 }
-
+/* Estilo de hover para los botones circulares */
+.circle-button:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
 
 
 
