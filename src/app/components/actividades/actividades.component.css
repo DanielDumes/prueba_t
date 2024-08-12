@@ -204,6 +204,14 @@ html, body {
         height: auto;
 
     }
+    .maravillas, .atractivos {
+        top: 310px;
+    }
+    .actividades, .actividades2 {
+        width: 100%;
+        left: 0;
+        top: -50;
+    }
 
     .culturales p, .maravillas p, .petro p {
         width: 100%;
@@ -216,7 +224,20 @@ html, body {
     }
 
     .petro {
-        padding: 10px;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .petro h1 {
+        max-width: 100%;
+        margin-right: 0;
+        text-align: center;
+    }
+    .petro img.fiestaimg {
+        max-width: 80%;
+    }
+      .actividades img, .maravillas img, .petro img.fiestaimg {
+        max-width: 100%;
     }
 }
 
