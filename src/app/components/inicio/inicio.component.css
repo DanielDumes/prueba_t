@@ -325,3 +325,56 @@ body {
 .map {
   animation: fadeScale 1.2s ease-in-out;
 }
+
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 90%;
+}
+  #carouselExampleIndicators {
+      margin-left: 0.5cm;
+      margin-right: 0.5cm;
+  }
+
+  .circle-button {
+      width: 150px;
+      height: 150px;
+  }
+
+  .parrafo2 {
+      padding-left: 50px;
+      padding-right: 50px;
+      font-size: 20px;
+      flex-direction: column;
+  }
+
+  .info-txt {
+      width: 100%;
+  }
+  .info-img{
+    display: none;
+  }
+
+  .info-txt h2 {
+      font-size: 40px;
+  }
+
+  .info-txt p {
+      font-size: 14px;
+  }
+
+  .parqMorales {
+      max-width: 100%;
+      margin-left: 0;
+  }
+
+  .horario-info h2 {
+      font-size: 40px;
+  }
+
+  .txt h4, .txt p {
+      font-size: 14px;
+  }
+
+ 
+}
