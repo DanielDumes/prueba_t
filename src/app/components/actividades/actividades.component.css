@@ -198,6 +198,12 @@ html, body {
     to { color: #004d40; }
 }
 
+.actividades img:hover,
+.maravillas img:hover,
+.culturales img:hover {
+    animation: zoomIn 0.5s ease forwards;
+}
+
 @media screen and (max-width: 768px) {
     .culturales img, .maravillasimg, .petroimg {
         width: 80%;
