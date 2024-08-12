@@ -198,18 +198,26 @@ html, body {
     to { color: #004d40; }
 }
 
-/* Aplicación de animaciones al hacer hover */
-.actividades img:hover,
-.maravillas img:hover,
-.culturales img:hover {
-    animation: zoomIn 0.5s ease forwards;
+@media screen and (max-width: 768px) {
+    .culturales img, .maravillasimg, .petroimg {
+        width: 80%;
+        height: auto;
+
+    }
+
+    .culturales p, .maravillas p, .petro p {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .actividades, .actividades2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .petro {
+        padding: 10px;
+    }
 }
 
-/* Efecto de animación al pasar por los títulos */
-.culturales h1:hover,
-.culturales h4:hover,
-.naturales h1:hover,
-.naturales h4:hover {
-    animation: colorChange 0.5s ease forwards;
-}
 
