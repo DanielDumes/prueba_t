@@ -382,5 +382,9 @@ h1{
     margin-bottom: 20px;
     display: none;
   }
+    .circle-button {
+    width: 150px;
+    height: 150px;
+  }
 }
 
