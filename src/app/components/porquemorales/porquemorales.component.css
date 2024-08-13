@@ -93,6 +93,13 @@ header {
     height: 350px;
     border-radius: 15px;
 }
+
+.fiestaimg {
+  height: 350px;
+  border-radius: 15px;
+  max-width: 35%;
+}
+
 /*botones*/
 .button-container {
   text-align: center;
@@ -355,7 +362,7 @@ h1{
 
 }
 header {
-  top: 100px;
+  top: 150px;
   width: 100vw; 
   overflow: hidden; 
   display: block; 
@@ -405,13 +412,22 @@ header {
     font-size: 20px;
   }
 
-  .parrafo2 img, .parrafo3 img, .parrafo4 img, .humitas img, .tigrillo img {
-    max-width: 80%;
+   .humitas img, .tigrillo img,.parrafo1 img {
+    max-width: 70%;
     margin-bottom: 20px;
-    display: none;
+
+   
   }
+
+  .parrafo2 img, .parrafo3 img, .parrafo4 img{
+    max-height: 200px; 
+    transform: scaleX(2.5);
+
+  }
+  
     .circle-button {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
   }
+
 }
