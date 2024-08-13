@@ -335,21 +335,61 @@ h1{
 }
 
 @media screen and (max-width: 768px) {
+  .swiper-button-next{
+    color: red;  
+    transform: scale(0.4);
+  }
+  
+  .swiper-button-prev{
+    color: red;
+    transform: scale(0.4);
+
+  }
 
 .gastronomia {
     position: absolute;
+ 
 }
 .cultura {
   position: absolute;
+
 }
+header {
+  top: 100px;
+  width: 100vw; 
+  overflow: hidden; 
+  display: block; 
+}
+
 .header-content {
-    display: none;
+  width: 100%; 
+  margin: 0 auto; 
+  display: block; 
+}
+.slider-txt h1 {
+  font-size: 14px; 
+
 }
 
-  .content {
-    margin-top: 60px;
-  }
+.slider-txt p {
+  width: 250%;
+  font-size: 10px; 
+  padding: 0 10px;
+  text-align: justify;
 
+}
+
+.slider-img {
+  width: 70%; 
+  display: flex;
+  justify-content: center; 
+}
+.slider-img img {
+  height: auto;
+  opacity: 0.4; 
+  margin-left: 10px;
+  width: 100%;
+}
 
   .parrafo2, .parrafo3, .parrafo4, .humitas, .tigrillo, .parrafo1 {
     flex-direction: column;
@@ -375,4 +415,3 @@ h1{
     height: 150px;
   }
 }
-
