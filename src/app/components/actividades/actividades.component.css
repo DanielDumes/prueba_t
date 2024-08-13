@@ -50,6 +50,8 @@ html, body {
 }
 
 .culturales {
+    width: 100%;
+    top: 150px;
     text-align: center;
     animation: slideUp 1s ease-in-out;
 }
@@ -207,9 +209,7 @@ html, body {
         height: auto;
 
     }
-    .maravillas, .atractivos {
-        top: 50px;
-    }
+
     .actividades, .actividades2 {
         width: 100%;
         left: 0;
