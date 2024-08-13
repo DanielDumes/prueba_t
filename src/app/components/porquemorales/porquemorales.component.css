@@ -4,7 +4,6 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
@@ -87,15 +86,6 @@ header {
 }
 
 
-.cultura {
-    position: absolute;
-    top: 150px;
-}
-
-.gastronomia {
-    position: absolute;
-    top: 150px;
-}
 
 .gastroimg {
     position: relative;
